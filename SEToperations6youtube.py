@@ -51,7 +51,7 @@ print("After discard :", my_fruits)
 
 '''
 my_fruits.remove("peach")
-print("After remove :", my_fruits)
+print("After remove :", my_fruits) #Error occurs if fruit not found in set
 '''
 my_fruits.discard("peach")
-print("After discard :", my_fruits)
+print("After discard :", my_fruits) #No Error if fruit not found
